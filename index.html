@@ -21,7 +21,15 @@
             <h1>Ahmed Saber</h1>
             <p>(Software Developer)</p>
         </div>
+        <div class="quick-message-container">
+            <form class="quick-message-form">
+                <textarea name="message" id="message" placeholder="If you have any message, feedback, suggestion or advice, you can type it here.." required></textarea>
+                <input name="date" id="date" type="text" value="" style="display:none;">
+                <button>Send</button>
+            </form>
+        </div>
         <div class="links">
+            <p>or contact me on the following platforms</p>
             <a target="_blank" style="--color:#0077b5" href="https://www.linkedin.com/in/ahmed0saber/">
                 LinkedIn
             </a>
@@ -64,5 +72,8 @@
         </div>
     </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="./script.js"></script>
 
 </html>

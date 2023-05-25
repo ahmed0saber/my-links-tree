@@ -50,12 +50,60 @@ main {
     font-size: 20px;
 }
 
+.quick-message-container {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.quick-message-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quick-message-container textarea {
+    border: 2px solid #32323232;
+    padding: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #323232;
+    resize: none;
+    font-size: 16px;
+    height: 120px;
+    line-height: 24px;
+}
+
+.quick-message-container button {
+    color: #fff;
+    background-color: #0178B7;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.quick-message-container button:hover {
+    opacity: 0.8;
+}
+
 .links {
-    margin: 12px 0 0 0;
     display: flex;
     flex-direction: column;
     gap: 12px;
     width: 100%;
+}
+
+.links p {
+    font-size: 18px;
 }
 
 .links a {
